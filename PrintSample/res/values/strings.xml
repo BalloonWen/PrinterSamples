@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Print Sample</string>
+
+    <string name="print_text">Print</string>
+    <string name="load_caps_button">Get Capabilities</string>
+
+    <string name="pref_copies">Copies</string>
+    <string name="pref_color_mode">ColorMode</string>
+    <string name="pref_ColorMode_default">DEFAULT</string>
+    <string name="pref_DuplexMode_default">DEFAULT</string>
+    <string name="pref_autoFit_default">DEFAULT</string>
+    <string name="pref_duplex_mode">DuplexMode</string>
+    <string name="pref_monitoring_job">Monitoring Job</string>
+    <string name="category_attrs">Print Attributes</string>
+    <string name="category_feedback">Feedback</string>
+    <string name="pref_filename">File Name (without path)</string>
+    <string name="pref_autoFit">Auto Fit</string>
+    <string name="sdk_support_missing">Please install / update SmartUX SDK Support App to proceed</string>
+    <string name="unknown_error">Unexpected error:</string>
+    <string name="received_complete_intent">Received job pending intent</string>
+    <string name="loaded_caps">Capabilities were loaded and applied to available options</string>
+
+    <string name="title_format">\ [%1$d, %2$d]</string>
+    <string name="pref_show_settings">Settings UI</string>
+    <string name="select_printer">Select Device</string>
+    <string name="print_not_supported">Print is not supported on this device.</string>
+    <string name="pref_show_job_progress">Show Job Progress</string>
+</resources>

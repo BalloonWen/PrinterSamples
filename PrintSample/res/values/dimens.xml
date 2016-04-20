@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="button_padding">25dp</dimen>
+    <dimen name="button_margin">20dp</dimen>
+
+    <dimen name="button_margin_start">66dp</dimen>
+    <dimen name="button_margin_bottom">18dp</dimen>
+</resources>

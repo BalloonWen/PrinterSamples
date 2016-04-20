@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\PrinterSamples\\PrintSample\\build\\intermediates\\res\\merged\\debug\\xml\\print_preferences.xml",
+        "source": "F:\\PrinterSamples\\PrintSample\\res\\xml\\print_preferences.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\PrinterSamples\\PrintSample\\build\\intermediates\\res\\merged\\debug\\xml\\print_preferences.xml",
+        "source": "F:\\AndroidStudioProjects\\PrinterSamples\\PrintSample\\res\\xml\\print_preferences.xml"
+    }
+]

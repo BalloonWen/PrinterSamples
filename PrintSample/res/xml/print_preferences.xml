@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/category_attrs">
+        
+        <EditTextPreference
+            android:key="pref_filename"
+            android:title="@string/pref_filename"
+            android:dialogTitle="@string/pref_filename"
+            android:inputType="textNoSuggestions"/>
+        
+        <com.sec.android.ssp.balloon.print.fragments.EditTextIntegerPreference
+            android:key="pref_copies"
+            android:title="@string/pref_copies"
+            android:defaultValue="1"
+            android:dialogTitle="@string/pref_copies" />
+
+        <ListPreference
+            android:key="pref_colorMode"
+            android:title="@string/pref_color_mode"
+            android:dialogTitle="@string/pref_color_mode"
+            android:entries="@array/pref_ColorMode_entries"
+            android:entryValues="@array/pref_ColorMode_entries"
+            android:defaultValue="@string/pref_ColorMode_default" />
+
+        <ListPreference
+            android:key="pref_duplexMode"
+            android:title="@string/pref_duplex_mode"
+            android:dialogTitle="@string/pref_duplex_mode"
+            android:entries="@array/pref_DuplexMode_entries"
+            android:entryValues="@array/pref_DuplexMode_entries"
+            android:defaultValue="@string/pref_DuplexMode_default" />
+        
+        <ListPreference
+            android:key="pref_autoFit"
+            android:title="@string/pref_autoFit"
+            android:dialogTitle="@string/pref_autoFit"
+            android:entries="@array/pref_autoFit_entries"
+            android:entryValues="@array/pref_autoFit_entries"
+            android:defaultValue="@string/pref_autoFit_default" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/category_feedback">
+        <CheckBoxPreference
+            android:key="pref_monitoringJob"
+            android:title="@string/pref_monitoring_job"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="pref_showJobProgress"
+            android:title="@string/pref_show_job_progress"
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="pref_showSettings"
+            android:title="@string/pref_show_settings"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
